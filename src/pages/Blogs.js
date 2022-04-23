@@ -171,6 +171,13 @@ export default class Blog extends Component {
             <p>
             I feel that I have engaged appropriately with the topic in a way that prepares me for entering our field in an open state of mind and a new approach to future projects. I now have a new understanding of the digital community and the tremendous lengths that we still face in order to have an ideal industry in terms of multi-faceted involvement. Social factors aside, it is through their enforcement that we effectively create more meaningful and engaging art, as the involvement of new perspectives allows for innovative and interesting approaches to the digital world.
             </p>
+            <p>
+                I have chosen to use foundation colours such as black and white. Specifically being that this site will display works of art that rotate monthly; therefore it looks far sleeker to use monochromatic css as to not clash with any artworks.
+                Using Black and White in itself often reads as professional to viewers. I have used a peach colour for the navigation bar however to introduce an element of visual stimulation that grabs the viewers attention.
+                The wireframes that I have designed have not yet been implemented in full; this is due to the fact that my website is somewhat in the earlier stages of development 
+                and will be gradually introduced through development. My designs are sleek, structured and simple as to not overwhelm the viewer, appear to a variety of audiences (as older audiences may become confused with a more
+                creative layout) and to maintain the idea that this is a professional environment much like a gallery, where the gallery is simple but the work speaks for itself.
+            </p>
         </div>  
         </div>
       </div>   
