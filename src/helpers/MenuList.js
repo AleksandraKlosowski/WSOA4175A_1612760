@@ -7,33 +7,33 @@ import img7 from '../assets/img7.jpg';
 
 export const MenuList = [
     {
-        name: "img2",
+        name: "Grey and White",
         image: img2,
-        price: 500
+        price: 600
     },
     {
-        name: "img3",
+        name: "Windows",
         image: img3,
         price: 500
     },
     {
-        name: "img4",
+        name: "Shadow Play",
         image: img4,
-        price: 500
+        price: 510
     },
     {
-        name: "img5",
+        name: "Light",
         image: img5,
         price: 500
     },
     {
-        name: "img6",
+        name: "White and Grey",
         image: img6,
-        price: 500
+        price: 470
     },
     {
-        name: "img7",
+        name: "Contrast",
         image: img7,
-        price: 500
+        price: 550
     },
 ];
