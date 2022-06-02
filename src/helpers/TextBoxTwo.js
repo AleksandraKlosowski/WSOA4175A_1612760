@@ -5,7 +5,9 @@ const TextBox = () => {
     <div className='text-box'>
         <h3>Feeling Disconnected</h3>
         <p>
-            'Feeling Disconnected' in an awtwork that represents how out of touch we are to the real world.
+            'Feeling Disconnected' is an artwork that represents how out of touch we from the real world.
+            We have become too accustomed to the comfort of our homes, communicating 
+            with friends and strangers via varioous social networks. 
             
         </p>
     </div>
