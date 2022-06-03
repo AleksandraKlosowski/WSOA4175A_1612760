@@ -5,9 +5,9 @@ import {WireframeList} from '../helpers/WireframeList';
 import {WireframeListTwo} from '../helpers/WireframeListTwo';
 import WireframeItem from '../components/WireframeItem';
 import Inspo from '../img/inspo.jpg';
-import Web from '../img/web.jpg';
-import Web2 from '../img/web2.png';
 import Web3 from '../img/web3.png';
+import WebMoodboard from '../img/moodboard.png';
+import WebMoodboard2 from '../img/moodboard2.png';
 
 
 export default class About extends Component {
@@ -56,6 +56,7 @@ export default class About extends Component {
           </div>
           <h5>simple. elegant. classy.</h5>
           <img src={Inspo} alt="inspo" class = "center img1"/>
+          <img src={WebMoodboard2} alt="web moodboard" class = "center img2"/>
           <h1>Wireframes</h1>
           <div className='wireframe'>
           <div className="wireframeList">
@@ -74,9 +75,8 @@ export default class About extends Component {
                 our own home, this has been further promoted by Covid 19.
               </p>
           </div>
-          <img src={Web} alt="web" class = "center img2"/>
-          <img src={Web2} alt="web2" class = "center img2"/>
-          <img src={Web3} alt="web3" class = "center img2"/>
+          <img src={WebMoodboard} alt="web moodboard" class = "center img2"/>
+          
           <div className="aboutBottom">
               <p>The goal of my artwork is to visually express this lack of connectivity.
                 I am hoping to create a parallax effect whereby the word (or fragments
@@ -84,7 +84,9 @@ export default class About extends Component {
                 the words will be in a digital font to represent the digital age and will
                 be unclear in some instances and clearer in others.
               </p>
+              <img src={Web3} alt="web3" class = "center img2"/>
           </div>
+          
       </div> 
 
       
