@@ -164,7 +164,7 @@ export default class Blog extends Component {
             </div> 
         <div className='body2'> 
         <div className='content2'> 
-            <h2>Reflection</h2>
+            <h2>Reflection 1</h2>
             <p>
             This quarter I have engaged in various theoretical frameworks including Internet Art and its history. This involves the understandings of Social and Design Justice in this respective field as well as an overall understanding as to what makes web and net art successful. 
             </p>
@@ -177,6 +177,51 @@ export default class Blog extends Component {
                 The wireframes that I have designed have not yet been implemented in full; this is due to the fact that my website is somewhat in the earlier stages of development 
                 and will be gradually introduced through development. My designs are sleek, structured and simple as to not overwhelm the viewer, appear to a variety of audiences (as older audiences may become confused with a more
                 creative layout) and to maintain the idea that this is a professional environment much like a gallery, where the gallery is simple but the work speaks for itself.
+            </p>
+        </div>  
+        </div>
+        <div className='body2'> 
+        <div className='content2'> 
+            <h2>Reflection 2</h2>
+            <p>I have been successful in my attempts of creating my internet artwork 
+                whereby I use layered images in order to express how disconnected we 
+                are from reality. I have used a relatively fast parallax that causes 
+                the words to scroll in and out of the blacked out boxes. I have chosen 
+                such a high speed as this not only demonstrates the instantaneous and 
+                speedy digital age, but also makes it harder to read the text unless 
+                one slows down when scrolling. This alone demonstrates how we need to 
+                slow down in order to truly connect with one another, without the 
+                convenience of the internet. Some of the text overlaps, some of the 
+                text is fragmented and some of the text does not fit comfortably into 
+                the black boxes to make the words legible. 
+            </p>
+            <p>
+            On top of the moving artwork I have included a heading that reads “Feeling 
+            a Little Disconnected”. This heading is repeated three times however each 
+            repeat demonstrates a fragment of what it was before. The second heading is 
+            shown without the inclusion of vowels and the third one whereby both the 
+            vowels and every word other that “D-SC-NN-CT-D”. This is the word ‘disconnected’ 
+            without any vowels. I have chosen to strategically fragment this heading in 
+            such a way as one is still capable of reading and interpreting a sentence 
+            with our brain automatically filling in the blanks. Again demonstrated how we 
+            become more disconnected with the progression of the digital age.
+            </p>
+            <p>
+            In terms of my website, I feel that I have successfully demonstrated 
+            professionalism with the use of black and white and a restrain from excessive 
+            colour. My website is easy to navigate despite my viewers age and the intent 
+            of my website is to sell and promote someone else’s work (art), not my own. 
+            This is why the website is not the main focus. My job is to effectively display
+             someone else’s work to the public without pulling focus from it. Should I 
+             choose to demonstrate bright and vibrant artworks, the website is simple 
+             enough as to not overwhelm the viewer; however I may choose to then change 
+             the colour of the footer, should it not fit with the artists appeal. In 
+             this case I may opt for having a black and white website entirely but because 
+             I have chosen a relatively neutral header I feel that this can easily be 
+             avoided. I have chosen to have a coloured heading rather than a black one as 
+             I felt it would grab the viewer’s attention more and strain the eyes less. 
+             This is particularly helpful for older viewers as it makes the navigation bar 
+             clearer to differentiate.
             </p>
         </div>  
         </div>
