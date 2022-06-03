@@ -7,7 +7,7 @@ const TextBox = () => {
         <p>
             'Feeling Disconnected' is an artwork that represents how out of touch we from the real world.
             We have become too accustomed to the comfort of our homes, communicating 
-            with friends and strangers via varioous social networks. 
+            with friends and strangers via various social networks rather than being physically present. 
             
         </p>
     </div>
