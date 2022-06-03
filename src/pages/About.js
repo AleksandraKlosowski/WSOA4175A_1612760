@@ -77,6 +77,14 @@ export default class About extends Component {
           <img src={Web} alt="web" class = "center img2"/>
           <img src={Web2} alt="web2" class = "center img2"/>
           <img src={Web3} alt="web3" class = "center img2"/>
+          <div className="aboutBottom">
+              <p>The goal of my artwork is to visually express this lack of connectivity.
+                I am hoping to create a parallax effect whereby the word (or fragments
+                of the word) 'disconnected' will appear and dissappear on the screan.
+                the words will be in a digital font to represent the digital age and will
+                be unclear in some instances and clearer in others.
+              </p>
+          </div>
       </div> 
 
       
