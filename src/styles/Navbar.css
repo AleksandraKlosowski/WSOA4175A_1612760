@@ -75,7 +75,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .navbar {
         background-color: rgb(210, 181, 145);
     }
@@ -93,7 +93,7 @@
     }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 900px){
     .navbar .rightSide button{
         display: none;
     }
