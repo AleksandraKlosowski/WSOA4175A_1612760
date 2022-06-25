@@ -8,6 +8,7 @@ import About from './pages/About';
 import Blogs from './pages/Blogs';
 import WebArt from './pages/WebArt';
 
+
 function App() {
   return (
     <div className="App">
