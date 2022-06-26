@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Slider from 'react-slick'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import BlogImage from '../assets/img3.jpg';
+import BlogImageTwo from '../assets/img4.jpg';
 import "../styles/Blogs.css";
 
 import 'slick-carousel/slick/slick.css'
@@ -154,8 +155,71 @@ export default function Carousel() {
       </Slider>
 
       <div className="blog">
-          <div className="blogTop" style={{backgroundImage: `url(${BlogImage})` }}>
-              <h1>REFLECTIONS</h1>
+
+      <div className="blogTop" style={{backgroundImage: `url(${BlogImage})` }}>
+              <h1>EXAM REFLECTIONS</h1>
+        </div>
+        <div className='body2'> 
+        <div className='content2'> 
+            <h2>Internet Artwork Rationale & Critical Reflection</h2>
+            <p>My internet artwork is a representation of how ironic the concept of technological ‘connectivity’ really is. Despite the fact that we literally have the world at our fingertips and we have numerous connections to friends/family and strangers virtually, we are losing the social abilities to connect on a real, non-virtual level.  
+            </p>
+            <p>
+            Everyone has their very own internet persona, however reality often varies drastically. Similarly to how substances are used recreationally to ease communication (often in cases of anxiety and difficulty socializing), the internet is used in a similar way. It is used as a clutch whereby people can be who they want to be, whether it is more confident, more vulnerable etc. This is not to say that the internet is a bad thing, but it is a clutch that many people depend on more than the world outside of their cell phones and social media. The influence of the internet creates the idea that we need to look and be a certain way in order to be content and happy despite the fact that many of these influences/influencers to not live the glamorous lives that they portray. 
+            </p>
+            <p>
+            My artwork does permeate the entire site; specifically in the sense that on a PC, my site appears well constructed and sleek; however should you try use it via mobile, there are certain instances whereby the text does not adapt and translate well. My artwork also permeates the site in the sense that it is a gallery and store for digital prints, a medium no longer connected to the traditional means of physically holding and seeing a painting, the artwork in some senses is not considered unique as there can be numerous copies made over and over again, similarly to how individuals create masks and personas off of their favourite influencers; attempting to be copies of their favourite influencers. 
+            </p>
+            <p>
+            My website was inspired by Walter Benjamin’s “The Work of Art in the Age of Mechanical Reproduction” (1936). He creates an artwork by layering various digital images that create a 3D effect in the way that each image moves at a different speed. His artwork also reflects on how nothing is truly original on the internet as once it is on their, many other people have access to the same materials and images. I have used his inspiration of layering and creating a whole artwork through the use of layers of various images. 
+            </p>
+            <p>
+            My artwork is a reflection of how ‘disconnected’ from reality we are in the digital age despite having access to everyone and everything. 
+            </p>
+            <p>
+            This is expressed with how the text ‘DISCONNECTED’ is sometimes broken up with either missing vowels or consonants. As one scrolls, different versions of the word is displayed to digitally represent this conundrum that we face in the digital world. Occasionally one can see the word ‘CONNECTED’ amongst the broken up words. This could be interpreted as the loading of the internet and its unreliability, especially in South Africa whereby access is not always so easy with our consistent load shedding. It can also be interpreted as how rare it is to create a truly real and meaningful connection with somebody over the internet.
+            </p>
+            <p><h5>
+            <li>Benjamin, W. (1999). "The Work of Art in the Age of Mechanical Reproduction."
+            Illuminations. Ed. H. Arendt. London, Pimlico. 211–235.</li></h5>
+            </p>
+        </div>  
+        </div>
+      
+      <div className='body2'> 
+        <div className='content2'> 
+            <h2>Design Reflection</h2>
+            <p>Throughout the entire process of creating the website, I have chosen to stick to a very simple and effective aesthetic. 
+            </p>
+            <p>
+            I have chosen to use black and white overall aside from the header in order to make the website feel less ‘clinical’ and cold. As reflected on before, it is important for my website to have a simple and clean aesthetic as it may display more vibrant artworks in the future (as they are updated monthly) and therefore should not clash with the website. The purpose of the website is to showcase art and this cannot be done effectively if the website becomes too vibrant and starts re-focusing the viewers’ attention. 
+            </p>
+            <p>
+            My websites design started off very simple and I have gradually implemented elements that feel more modern and stimulating, such as through the implementation of react-slick. This has been used where the reader can select different blogs displayed on screen without having to leave the screen whilst not overwhelming the viewer. If I had not implemented this blog ‘slider’, I would have been forced to either display every blogpost on one page or create hyperlinks to various other pages with every new blogpost. This becomes tedious and can be either overwhelming, time consuming or unappealing to the viewer. Therefore the implementation of react-slick only strengthened the ‘sleekness’ of my website. 
+            </p>
+            <p>
+            The trickiest element is implementing exactly what you visualize and sometimes it may take hours of css in order to create exactly what you had hoped for. Personally I had to simplify my wireframes in order to compensate for the time I had to spend on the website as well as for my capabilities at this point in time. I was not able to achieve exactly what I had hoped, however I feel confident with the end result. The only area that I am not fully content with is the cross-platform implementations but I am confident that with time and dedication I will eventually understand it with ease. 
+            </p>
+        </div>  
+        </div>
+
+      <div className='body2'> 
+        <div className='content2'> 
+            <h2>Technical Reflection</h2>
+            <p>Out of all criteria that I need to meet for my website, the technical has proven most tricky. Overall I am impressed with my implementation of code and its legibility to other coders; however I struggle with implementing code that is appropriate for various platforms and screen sizes. I have managed to appropriately implement coding that allows in cross platform interactivity with a few shortcomings such as with my incorporation of ‘react-slick’. This is displayed on the blog page whereby viewers can press the arrow in order to display the next blog; however this does not translate well when used on a cell phone etc. 
+            </p>
+            <p>I have made appropriate use of semantics and have created various folders in order to make it easy to navigate through my code; this includes asset folders, component folders, style folders and more. The use of helpers prevents a messy navigation through the written code and makes it easier to navigate through. 
+            </p>
+            <p>I have made use of various languages such as css and JavaScript that has enabled me to create this website. There are circumstances whereby one can implement the styling directly onto the JavaScript page but this soon becomes messy and does not allow as much freedom for creating a polished result which is why I have chosen to write the code separately. 
+            </p>
+            <p>Overall, my technical implementations are good but could definitely use a bit more polishing such as on the blog page. In this instance I could have called the written text from another JavaScript file as opposed to coding it all within one page, making it harder to navigate through. A good implementation of this could be the gallery page, whereby the prices, titles and images are called from a separate JavaScript file in the ‘helpers’ folder. 
+            </p>
+        </div>  
+        </div>
+        </div>
+
+          <div className="blogTop" style={{backgroundImage: `url(${BlogImageTwo})` }}>
+              <h1>MARKED REFLECTIONS</h1>
         </div>
       
       <div className='body2'> 
@@ -223,8 +287,7 @@ export default function Carousel() {
         </div>  
         </div>
         </div>
-    </div>
-
+        
 
   )
 }
